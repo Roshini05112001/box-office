@@ -26,7 +26,7 @@ const Show = () => {
     if(showData){
         return <div>
 
-            <Link to="./">Go back to home</Link>
+            <Link to="/">Go back to home</Link>
 
             
             <ShowMainData 
