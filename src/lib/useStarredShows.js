@@ -14,8 +14,6 @@ const usePresistedReducer = (reducer , initialState , localStorageKey) => {
     } , [state, localStorageKey])
   
     return [state, dispatch]
-  
-  
   }
   
   const starredShowReducer = (currentStarred,action) =>{
